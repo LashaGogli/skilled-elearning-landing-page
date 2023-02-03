@@ -56,6 +56,10 @@ header{
 section{
     width: 100%;
     height: 888px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
     
 }
 footer{
@@ -92,6 +96,10 @@ footer{
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 158.5px;
 }
+.PicForDivForOvalPic{
+    width: 100%;
+    height: 100%;
+}
 
 .OutDivOfSection{
     width: 100%;
@@ -100,12 +108,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .InsideDivOfSection{
     width: 350px;
     height: 322px;
     position: relative;
+    background-color: white;
+    border-radius: 10px;
    
     
 
@@ -317,4 +328,175 @@ footer{
 .GetStarted2:hover{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     cursor: pointer;
+}
+
+
+@media (max-width:768px){
+    .Container{
+        max-width: 1440px;
+        height: 1760px;
+       
+    }
+    .RotatedOval{
+
+        width: 216.54px;
+        height: 688.56px;
+        margin-top: -10px;
+        margin-left: 620px;
+    
+    }
+    .InsideSecondDiv{
+        width: 350px;
+        height: 350px;
+    }
+    .InsideSecondDiv2{
+        width: 350px;
+        height: 350px;
+     
+    }
+    header{
+        width: 100%;
+        height: 70px;
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .SecondContainer{
+
+        width: 668px;
+        height: 1640px;
+
+
+        
+    
+    }
+    footer{
+        width: 100%;
+        height: 120px;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .GetStarted2{
+
+        left: 560px;
+    }
+    .SkilledSpan{
+        left: 50px;
+    
+    }
+    .InsideDivOfSection1{
+        width: 330px;
+        height: 259px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 15px;
+        
+      
+
+        
+        
+    
+    }
+    .InsideDivOfSection{
+        width: 330px;
+        height: 259px;
+        
+       
+        
+    
+    }
+    .InsideOvalP2{
+        width: 290px;
+        height: 80px;
+        font-size: 16px;
+
+    }
+    .ImgSkilled{
+        width: 89px;
+        height: 35px;
+    
+    }
+    .GetStarted{
+        width: 140px;
+        height: 48px;
+        font-size: 16px;
+      
+    }
+    .MaximazeSkill{
+        width: 326px;
+        height: 101px;
+        font-weight: 900;
+        font-size: 40px;
+    
+        
+    }
+    .OurModern{
+        width: 340px;
+        height: 78px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .GetStarted3{
+
+        font-size: 16px;
+
+    
+    }
+    .DivForOvalPic{
+        width: 216.54px;
+        height: 382.53px;
+
+    }
+    .CourseHours{
+        width: 90px;
+        height: 28px;
+        font-size: 14px;
+
+       
+     
+        
+    }
+    .SmallDivs{
+        width: 155px;
+        height: 100px;
+        top: 320px;
+        left: -40px;
+
+    }
+    .SmallDivs2{
+        width: 105px;
+        height: 100px;
+        top: -10px;
+        left: 180px;
+    }
+    .P1451{
+        width: 80px;
+        height: 40px;
+        font-size: 32px;
+
+    }
+    .InsideOvalP1{
+        width: 130px;
+        height: 25px;
+        font-size: 20px;
+
+    }
+    .GetStarted4{
+
+        width: 104px;
+        height: 28px;
+        color: #F74780;
+
+        font-weight: 700;
+        font-size: 18px;
+
+    
+    }
+    .CheckOut{
+        width: 286px;
+        height: 64px;
+        font-size: 24px;
+    }
+
 }

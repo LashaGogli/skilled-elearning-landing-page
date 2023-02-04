@@ -165,8 +165,8 @@ footer{
     width: 199px;
     height: 120px;
     position: absolute;
-    top: 350px;
-    left: -100px;
+    top: 510px;
+    left: 600px;
     background-color: white;
     border-radius: 15px;
     /* padding-bottom: 20px; */
@@ -179,8 +179,8 @@ footer{
     width: 155px;
     height: 120px;
     position: absolute;
-    top: 100px;
-    left: 280px;
+    top: 270px;
+    left: 980px;
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -463,15 +463,15 @@ footer{
     .SmallDivs{
         width: 155px;
         height: 100px;
-        top: 320px;
-        left: -40px;
+        top: 450px;
+        left: 300px;
 
     }
     .SmallDivs2{
         width: 105px;
         height: 100px;
-        top: -10px;
-        left: 180px;
+        top: 300px;
+        left: 580px;
     }
     .P1451{
         width: 80px;
@@ -560,7 +560,8 @@ footer{
         width: 253px;
         height: 253px;
         border-radius: 50%;
-        position: relative;
+        overflow: hidden;
+        
         /* overflow-y: hidden;
         padding-top: 50px; */
 
@@ -585,12 +586,17 @@ footer{
 
     }
     .SmallDivs{
-        width: 199px;
-        height: 120px;
-        top: 200px;
-        left: -40px;
+        width: 155px;
+        height: 100px;
+        top: 720px;
+        left: -20px;
 
 
+    }
+    .SmallDivs2{
+
+        top: 500px;
+        left: 200px;
     }
     .InsideDivOfSection1{
         width: 343px;
@@ -619,6 +625,10 @@ footer{
     .GetStarted2{
 
         left: 200px;
+    }
+    .SkilledSpan{
+        left: 25px;
+    
     }
  
     
